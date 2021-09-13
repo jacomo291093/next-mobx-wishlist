@@ -1,0 +1,60 @@
+{
+  "gender": {
+    "f": [
+      {
+        "id": 1000,
+        "name": "The Notebook",
+        "price": 10.31,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51ZXkAJNYWL._AC_US218_.jpg"
+      },
+      {
+        "id": 1001,
+        "name": "LEGO Mindstorms EV3",
+        "price": 349.95,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71CpQw%2BufNL._SL1000_.jpg"
+      }
+    ],
+    "m": [
+      {
+        "id": 1003,
+        "name": "Machine Gun Preacher",
+        "price": 7.35,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/91AFFK9fwkL._SY445_.jpg"
+      },
+      {
+        "id": 1004,
+        "name": "LEGO Mindstorms EV3",
+        "price": 349.95,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71CpQw%2BufNL._SL1000_.jpg"
+      }
+    ]
+  },
+  "users": {
+    "1": {
+      "id": 1,
+      "name": "José",
+      "gender": "m",
+      "wishlist": {
+        "items": [
+          {
+            "id": 1,
+            "name": "LEGO Mindstorms EV3",
+            "price": 349.95,
+            "image": "https://images-na.ssl-images-amazon.com/images/I/71CpQw%2BufNL._SL1000_.jpg"
+          },
+          {
+            "id": 2,
+            "name": "Miracles - C.S. Lewis",
+            "price": 12.91,
+            "image": "https://images-na.ssl-images-amazon.com/images/I/51a7xaMpneL._SX329_BO1,204,203,200_.jpg"
+          }
+        ]
+      }
+    },
+    "2": {
+      "id": 2,
+      "name": "Zerado",
+      "gender": "m"
+    }
+  }
+}

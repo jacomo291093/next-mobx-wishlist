@@ -28,7 +28,7 @@ export const getGroup = () => {
         id: 1,
         name: 'José',
         gender: 'm',
-        wishlist: WishList.create({
+        wishlist: {
           items: [
             {
               id: 1,
@@ -44,7 +44,7 @@ export const getGroup = () => {
                 'https://images-na.ssl-images-amazon.com/images/I/51a7xaMpneL._SX329_BO1,204,203,200_.jpg',
             },
           ],
-        }),
+        },
       },
       2:{
         id:2,

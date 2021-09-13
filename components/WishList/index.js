@@ -6,6 +6,7 @@ import { toJS } from 'mobx';
 
 // cant make observable work properly without cloning / using toJS in Ant Design. Had to use an ID to update =/
 const WishList = (props) => {
+  const { readonly } = props;
   let { items } = props.wishlist;
   const getItem = (id) => items.filter((i) => i.id === id)[0];
   const onChangePrice = (id, newPrice) => {
@@ -18,6 +19,7 @@ const WishList = (props) => {
     getItem(id).delete();
   };
 
+
   return (
     <List
       {...props}
@@ -29,6 +31,7 @@ const WishList = (props) => {
           onDelete={onDelete}
           onChangePrice={onChangePrice}
           onChangeName={onChangeName}
+          readonly={readonly}
         />
       )}
     />
