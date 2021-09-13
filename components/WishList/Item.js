@@ -49,7 +49,7 @@ export const WishListItemEdit = ({ item, toggleCallback, onChangePrice, onChange
         }}/>
       }
     />
-    <span>
+    <span style={{marginLeft:"1rem"}}>
       <Button type='secondary' icon={<SaveOutlined />} size={'small'} onClick={toggleCallback} />
     </span>
   </>

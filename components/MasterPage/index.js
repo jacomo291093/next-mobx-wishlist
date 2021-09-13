@@ -11,10 +11,10 @@ const MasterPage = (props) => {
           title={<><GiftTwoTone /> <span>WishList!</span></>}
           subTitle="a MobX-State-Tree implementation"
         />
-        <Content style={{ height: "100%", padding: "2rem", overflow:"scroll" }}>
+        <Content style={{ height: "100%", padding: "2rem 4rem", overflowY:"scroll" }}>
           {props.children}
         </Content>
-        <Footer>Jácomo Nanci Hodnik - 2021</Footer>
+        <Footer style={{borderTop:"1px solid lightgrey"}}>Jácomo Nanci Hodnik - 2021</Footer>
       </Layout>
     </>
   );
